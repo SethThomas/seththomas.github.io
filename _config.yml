@@ -1,0 +1,63 @@
+# Site setings
+name: 'Seth Geoghegan'
+description: 'Developer'
+meta_description: 'Seth Geoghegan'
+logo:
+# Author image is used in site sidebar and greetings in the home page hero text
+author:
+  image: 'authorimage.jpg'
+  greetings: "My name is Seth Geoghegan. I'm a freelance developer. It’s nice to meet you."
+favicon: 'assets/images/favicon.ico'
+baseurl:
+production_url: https://sethgeoghegan.com/
+disqus: 'justgoodthemes'
+#mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+# Add your GA Tracking Id
+ga_analytics:
+
+# Contact form setings
+email: seth.geoghegan@gmail.com
+contact_page_description: "Let's connect!"
+thankyou_page_description: "Message sent!  Thanks for reaching out, I'll be in touch soon."
+
+# Social links
+twitter: 'sethgeoghegan'
+#facebook: 'sethgeoghegan'
+github: 'seththomas'
+#codepen: 'username'
+medium: '@seth.geoghegan'
+instagram: 'sethgeoghegan'
+#pinterest: 'username'
+linkedin: 'sethgeoghegan'
+#producthunt: '@username'
+#quora: 'username'
+
+# Navigation
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about
+  - text: Contact Me
+    url: /contact
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
