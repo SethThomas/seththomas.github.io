@@ -9,8 +9,8 @@ author:
   greetings: "My name is Seth Geoghegan. I'm a freelance developer. It’s nice to meet you."
 favicon: 'assets/images/favicon.ico'
 baseurl:
-production_url: https://sethgeoghegan.com/
-disqus: 'justgoodthemes'
+#production_url: https://sethgeoghegan.com/
+#disqus: 'justgoodthemes'
 #mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
 # Add your GA Tracking Id
 ga_analytics:
@@ -22,15 +22,10 @@ thankyou_page_description: "Message sent!  Thanks for reaching out, I'll be in t
 
 # Social links
 twitter: 'sethgeoghegan'
-#facebook: 'sethgeoghegan'
 github: 'seththomas'
-#codepen: 'username'
 medium: '@seth.geoghegan'
 instagram: 'sethgeoghegan'
-#pinterest: 'username'
 linkedin: 'sethgeoghegan'
-#producthunt: '@username'
-#quora: 'username'
 
 # Navigation
 navigation:
