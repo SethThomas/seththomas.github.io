@@ -31,3 +31,8 @@
 @import "footer";
 @import "search";
 @import "media-queries";
+
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
