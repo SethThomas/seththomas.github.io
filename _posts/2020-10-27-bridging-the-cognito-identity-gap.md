@@ -54,7 +54,7 @@ User Pools contain information about your user; email address, username, passwor
 
 Identity Pools contain information about user permissions; allow read access to an S3 bucket, allow access to invoke a specific API endpoint, etc.  Identity Pools do _not_ know specific user attributes.
 
-Since AWS does not provide a mapping between User Pool IDs and Identity Pool IDs, you'll be out of luck ~if~ when you need to relate user information (email address, username, phone number, etc) with a user action.
+Since AWS does not provide a mapping between User Pool IDs and Identity Pool IDs, you'll be out of luck <del>if</del> when you need to relate user information (email address, username, phone number, etc) with a user action.
 
 Let us walk through an example of when this would be a problem.
 
