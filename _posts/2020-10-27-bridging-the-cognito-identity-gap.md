@@ -50,13 +50,13 @@ Under the covers, User pools and Identity Pools each use their own unique identi
 
 So what?
 
-User Pools contain information about your user; email address, username, password, phone number, etc.  User Pools do _not_ know what permissions your users have.
+Recall that User Pools contain information about your user; email address, username, password, phone number, etc.  User Pools do _not_ know what permissions your users have.
 
 Identity Pools contain information about user permissions; allow read access to an S3 bucket, allow access to invoke a specific API endpoint, etc.  Identity Pools do _not_ know specific user attributes.
 
-Since AWS does not provide a mapping between User Pool IDs and Identity Pool IDs, you'll be out of luck <del>if</del> when you need to relate user information (email address, username, phone number, etc) with a user action.
+Since AWS does not provide a mapping between User Pool IDs and Identity Pool IDs, you'll be out of luck <del>if</del> when you need to relate user information (email address, username, phone number, etc) with a user action.  This can be particularly problematic when you consider that AWS IAM policies _exclusively_ use the users Identity Pool ID to uniquely identify the user.  
 
-Let us walk through an example of when this would be a problem.
+Confusing, I know.  But I'll walk through an example of when this would be a problem.
 
 ### S3 Private Folders
 
