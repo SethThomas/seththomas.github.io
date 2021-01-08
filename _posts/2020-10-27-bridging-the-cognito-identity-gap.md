@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Bridging The Cognito Identity Gap"
+title:  "The AWS Cognito Identity Gap"
 tags: [ AWS, Cognito, Amplify, Auth, S3, JavaScript]
 featured_image_thumbnail: assets/images/posts/2018/4_thumbnail.jpg
 featured_image: assets/images/posts/2020/poolside.jpg
-featured: true
+featured: false
 ---
 
 Auth is _hard_ to do well. Like, for realsies.  It's far from trivial but essential to get right.  This is exactly the problem [AWS Cognito](https://aws.amazon.com/cognito/) aims to solve. In Amazon's own words
