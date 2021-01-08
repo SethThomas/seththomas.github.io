@@ -4,6 +4,14 @@ title:  "Syntax Highlight Test"
 published: tue
 ---
 
+
+<pre><code class="language-ruby">
+def foo
+  puts "hello"
+end
+</code></pre>
+
+
 ```ruby
 def foo
   puts "hello"
