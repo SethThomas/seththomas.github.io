@@ -4,7 +4,7 @@ title:  "Syntax Highlight Test"
 published: tue
 ---
 
-```Ruby
+```ruby
 def foo
   puts "hello"
 end
