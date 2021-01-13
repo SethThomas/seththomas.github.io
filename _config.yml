@@ -9,7 +9,7 @@ author:
   greetings: "My name is Seth Geoghegan. I'm a freelance developer. It’s nice to meet you."
 favicon: 'assets/images/favicon.ico'
 baseurl:
-#production_url: https://sethgeoghegan.com/
+production_url: https://sethgeoghegan.com/
 disqus: 'sethblog'
 #mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
 # Add your GA Tracking Id

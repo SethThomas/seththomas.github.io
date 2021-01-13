@@ -38,7 +38,7 @@ Let's start by looking at a simple Lambda function that uploads a file to S3 and
 
 exports.handler = async function(event) {
 
-  const s3Result = await asynUploadFileToS3()
+  const s3Result = await asyncUploadFileToS3()
 
   const dbResult = asyncLogUploadToDynamoDB()
 
