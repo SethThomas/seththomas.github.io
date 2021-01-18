@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why Your Concurrent Lambda Isn't Working"
+title:  "Why Your Asynchronous Lambda Isn't Working"
 tags: [ AWS, Lambda, Node, JavaScript, Asyncronous]
 featured_image: assets/images/posts/2020/amirali-mirhashemian-kiH-RBm08NQ-unsplash.jpg
 published: false

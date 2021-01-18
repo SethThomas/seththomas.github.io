@@ -121,16 +121,16 @@ While this approach is simple, it relies on information that is sent from the cl
 
 ### A Server-Side Workaround
 
-If you are not satisfied with a client-side solution, you could follow the approach outlined [in a github comment](https://github.com/aws-amplify/amplify-js/issues/54#issuecomment-434401406) from an employee on the Cognito team:
+If you are not satisfied with a client-side solution, you could follow the approach outlined [in a github comment](https://github.com/aws-amplify/amplify-js/issues/54#issuecomment-434401406) from a member of the AWS Cognito team:
 
 1. Add a custom attribute to your user pools schema called identityId
 2. Make it read-only to the client that your end users are authenticating with
-Authenticate the end-user
-3. Get AWS credentials for the end-user
-4. If there is no identity id present in the user profile, call a Lambda using the AWS credentials from step 4 and provide the id token from the end-user as a parameter.
-5. In the lambda call Cognito Federated Identity's [GetId](https://docs.aws.amazon.com/cognitoidentity/latest/APIReference/API_GetId.html) and pass the id token for the end-user in the logins map, this will return the identity id
-6. In the lambda call [AdminUpdateUser](https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_AdminUpdateUserAttributes.html) to set the IdentityId profile attribute to the value returned in step 6
-7. Optionally refresh the end users' user pool tokens so they will have the identity id in them
+3. Authenticate the end-user
+4. Get AWS credentials for the end-user
+5. If there is no identity id present in the user profile, call a Lambda using the AWS credentials from step 4 and provide the id token from the end-user as a parameter.
+6. In the lambda call Cognito Federated Identity's [GetId](https://docs.aws.amazon.com/cognitoidentity/latest/APIReference/API_GetId.html) and pass the id token for the end-user in the logins map, this will return the identity id
+7. In the lambda call [AdminUpdateUser](https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_AdminUpdateUserAttributes.html) to set the IdentityId profile attribute to the value returned in step 6
+8. Optionally refresh the end users' user pool tokens so they will have the identity id in them
 
 
 While this solution is clever and addresses the client side limitation, I find it fairly complex.  It relies on the application developer to do a lot of heavy lifting, which I believe should be handled for you within the SDK.
