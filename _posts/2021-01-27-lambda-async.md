@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Why Your Asynchronous AWS Lambda Isn't Working"
+title:  "The Async Lambda Trap"
 tags: [ AWS, Lambda, Node, JavaScript, Asyncronous]
 featured_image: assets/images/posts/2020/amirali-mirhashemian-kiH-RBm08NQ-unsplash.jpg
+featured: true
 published: true  
 ---
 
