@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Skinny versus Fat Lambdas"
-tags: [ AWS, lambda, serverless, apigateway]
+tags: [ AWS, lambda, serverless, apigateway, twitter]
 featured_image: assets/images/posts/2022/kelly-sikkema--nz-GTuvyBw-unsplash.jpg
 featured: true
 published: true  
